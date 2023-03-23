@@ -27,7 +27,7 @@ def select_property_list(doctype):
                 and not field.read_only:
             allowed_fields.append({
                 "label": field_label_map[field.fieldname],
-                "feildname": field.fieldname
+                "fieldname": field.fieldname
             })
 
     return allowed_fields
