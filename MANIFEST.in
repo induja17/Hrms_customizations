@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hrms_customizations *.css
+recursive-include hrms_customizations *.csv
+recursive-include hrms_customizations *.html
+recursive-include hrms_customizations *.ico
+recursive-include hrms_customizations *.js
+recursive-include hrms_customizations *.json
+recursive-include hrms_customizations *.md
+recursive-include hrms_customizations *.png
+recursive-include hrms_customizations *.py
+recursive-include hrms_customizations *.svg
+recursive-include hrms_customizations *.txt
+recursive-exclude hrms_customizations *.pyc
